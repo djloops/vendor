@@ -1,0 +1,30 @@
+html,body{
+	height: 100%;
+}
+
+.main{
+	width: 640px;
+	height: 100%;
+
+	margin: 0 auto;
+
+	position: relative;
+}
+
+@media screen and (max-height: 1000px){
+	.scale{
+		transform:scale(0.9);
+		-webkit-transform:scale(0.9);
+		-webkit-transform-origin:center top;
+	}
+}
+@media screen and (max-height: 900px){
+	.scale{
+		transform:scale(0.8);
+		-webkit-transform:scale(0.8);
+		-webkit-transform-origin:center top;
+	}
+}
+.scale{
+	height: 100%;
+}
