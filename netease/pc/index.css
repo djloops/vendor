@@ -1,0 +1,12 @@
+/* html,body,main （main处理宽） */
+html,body{
+	height: px;
+}
+
+.main{
+	width: px;
+
+	margin: 0 auto;
+
+	position: relative;
+}
